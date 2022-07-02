@@ -1,0 +1,58 @@
+.sidebar{
+    background-color: #283339;
+    height: 100%;
+    flex: 1;
+    color: white;
+    height: 100vh;
+    padding-left: 20px;
+    padding-top: 20px;
+
+  .dashboard{
+        align-items: center;
+        display: flex;
+        span{
+            margin-left: 20px;
+        }
+        
+    }
+    .ui-elements{   
+    .title{
+        margin-top: 30px;
+        span{
+            font-size: 14px;
+            font-weight: 500;
+        }
+    }
+        ul{
+            .item{
+                align-items: center;
+                display: flex;
+                margin-top: 30px;
+                span{
+                    margin-left: 20px;
+                }
+            }
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+    }
+    
+    .extras-container{
+        .title-extras{
+            margin-top: 30px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        .extras-items{
+            align-items: center;
+            display: flex;
+            margin-top: 30px;
+            span{
+                margin-left: 20px;
+            }
+        }
+       
+    }
+}

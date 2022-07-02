@@ -1,5 +1,6 @@
 import React from "react";
+import "./lower-navbar.styles.scss";
 
 export const LowerNavbar = () => {
-  return <div>test</div>;
+  return <div className="lower">LOWERNAVBAR</div>;
 };
