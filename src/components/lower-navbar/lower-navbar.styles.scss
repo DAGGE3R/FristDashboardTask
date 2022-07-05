@@ -1,3 +1,47 @@
-.lower{
-    background-color: bisque;
+.lower-bar{
+    height: 15px;
+    border-bottom: 2px solid rgb(231, 228 , 228);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    .path{
+        display: flex;
+        align-items: center;
+        color: #E5E4E4;
+        span{
+            margin-left: 10px;
+            margin-right: 10px;
+            font-weight: 500;
+        }
+        .home{
+            color: black;
+        }
+        .admin{
+            color: #20a8da;
+        }
+        .dash{
+            color: #E5E4E4;
+        }
+    }
+    .right-props{
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+      
+        .dashboard{
+            span{
+                margin-left: 10px;
+            }
+            display: flex;
+            align-items: center;
+            margin-right: 20px;
+        }
+        .settings{
+            span{
+                margin-left: 10px;
+            }
+            display: flex;
+            align-items: center;
+        }
+    }
 }

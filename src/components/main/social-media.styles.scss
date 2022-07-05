@@ -1,0 +1,33 @@
+.container-social-media{
+    height: 8vw;
+    width: 15vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid rgb(216, 216, 216); 
+    .social-media-logo{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin-top: 1.5vw;
+         color: white;
+         padding-bottom: 1.5vw;
+         img{
+            width: 30%;
+         }
+    }
+    .bottom-social-container{
+        background-color: white;
+        height: 2vw;
+        .elemnts{
+            font-weight: 600;
+            padding: .5vw 0 0 1vw;
+            font-size: 1vw;
+            
+            display: flex;
+            justify-content: space-evenly;
+        }
+      
+    }
+}

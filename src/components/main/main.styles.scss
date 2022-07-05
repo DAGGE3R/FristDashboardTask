@@ -1,0 +1,34 @@
+.container-charts{
+    background-color: #E4E5E7;
+    .top-charts{
+        display: flex;
+        justify-content: center;
+    }
+    .middle-chart{
+        max-width: 78vw;
+        height: 25vw;
+        background-color: white;   
+        border: 2px solid rgb(216, 216, 216); 
+        margin: auto;
+    }
+    .stats{
+       border: 2px solid rgb(216, 216, 216); 
+       border-top: none;
+       display: flex;
+       width: 83%;
+       margin: auto;
+       justify-content: space-evenly;
+       background-color: #EBEEF3;
+       padding: 1vw;
+       padding-left: 3vw;
+       padding-right: 3vw;
+     
+    }
+    .socialMedia-container{
+        display: flex;
+        justify-content: space-around   ;
+        margin: auto;
+        width: 97%;
+        margin-top: 40px;
+    }
+}

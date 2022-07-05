@@ -1,0 +1,33 @@
+.bottom-stats-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: 50px;
+ .description-stat{
+    opacity: 50%;
+ }
+ .users-numbers{
+    font-weight: 500;
+ }
+    
+}
+.meter { 
+    height: 20px; 
+    position: relative;
+    border-radius: 25px;
+    padding: 10px;
+    display: flex;
+    width: 75%;
+    span {
+        display: block;
+        height: 30%;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        position: relative;
+        overflow: hidden;
+      }
+  }
